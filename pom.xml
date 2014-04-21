@@ -27,6 +27,14 @@
     <url>https://github.com/alibaba/rocketmq</url>
     <description>https://github.com/alibaba/RocketMQ/blob/develop/README.md</description>
 
+    <distributionManagement>
+        <repository>
+            <id>sonatype-nexus-staging</id>
+            <name>Nexus Staging Repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+  
     <modules>
         <module>rocketmq-client</module>
         <module>rocketmq-common</module>
